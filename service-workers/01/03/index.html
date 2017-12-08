@@ -1,0 +1,34 @@
+<!DOCTYPE>
+
+<html>
+
+    <head>
+        <title>Stale On Error</title>
+        <meta charset="UTF-8" />
+    </head>
+
+    <body>
+
+    <p>Registration Status: <strong id="status"></strong></p>
+
+    <script type="text/javascript">
+
+        if('serviceWorker' in navigator) {
+
+            navigator.serviceWorker.register(
+                'service-worker.js', { scope:'./' }
+            ).then(function(serviceWorker){
+                document.getElementById("status").innerHTML = "SUCCESSFULL";
+            }).catch(function(error){
+                document.getElementById("status").innerHTML = "ERROR!" + error;
+            });
+
+        } else {
+            document.getElementById("status").innerHTML = "UNAVAILABLE";
+        }
+
+    </script>
+
+    </body>
+
+</html>
