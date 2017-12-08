@@ -46,7 +46,7 @@
                             printState(e.target.state);
                         });
                     }
-            }).then(function(error){
+            }).catch(function(error){
                 document.getElementById("status").innerHTML = error;
             });
         } else {
