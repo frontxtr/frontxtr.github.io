@@ -26,7 +26,7 @@ self.addEventListener('activate', function(event){
 
 self.addEventListener('fetch', function(event){
     if(/\.js$/.test(event.request.url)) {
-        event.respondWith(Promise.race([timeout(400), fetch(event.request.url)]));
+        event.respondWith(Promise.race([timeout(900), fetch(event.request.url)]));
     } else {
         event.respondWith(fetch(event.request.url));
     }
