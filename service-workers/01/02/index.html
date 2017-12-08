@@ -19,16 +19,14 @@
             document.getElementById("state").innerHTML = state;
         }
 
-        function printStatus(status) {
-            document.getElementById(status).innerHTML = status;
-        }
-
         if( 'serviceWorker' in navigator ) {
 
             navigator.serviceWorker.register(
                 'service-worker.js',
                 {scope:'/service-workers/01/02/'}).then(function(registration){
                     var serviceWorker;
+
+                    document.getElementById("status").innerHTML = "successfull";
 
                     if(registration.installing) {
                         serviceWorker = registration.installing;
