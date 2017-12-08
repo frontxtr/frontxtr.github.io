@@ -6,7 +6,7 @@ function log(msg) {
 
 self.addEventListener('fetch', function(){
 
-    log('serviceWorker is currently handling fetch event for ' + evet.request.url);
+    log('serviceWorker is currently handling fetch event for ' + event.request.url);
 
     if( requestUrl.pathname === '/urlshortener/v1/url' && event.request.headers.has('X-Mock-Response') ) {
 
