@@ -19,7 +19,7 @@
             ).then(function(serviceWorker) {
                 document.getElementById("status").innerHTML = 'successfull';
             }).catch(function(error){
-                document.getElementById("status").innerHTML = "error";
+                document.getElementById("status").innerHTML = "error" + error;
             })
 
         } else {
