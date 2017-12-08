@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Custom Offline Page</title>
+</head>
+<body>
+    <p>Registration status: <strong id="status"></strong></p>
+
+    <script type="text/javascript">
+
+        var scope = {
+            scope: './'
+        };
+
+        if('serviceWorker' in navigator) {
+
+            navigator.serviceWorker.register(
+                'service-worker.js', scope
+            ).then(function(serviceWorker){
+                document.getElementById('status').innerHTML = 'successfull';
+            }).catch(function(error){
+                document.getElementById('status').innerHTML = 'error' + error;
+            })
+
+        } else {
+            document.getElementById('status').innerHTML = 'unavailable';
+        }
+
+    </script>
+
+
+</body>
+</html>
