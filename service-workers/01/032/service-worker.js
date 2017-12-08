@@ -8,6 +8,8 @@ self.addEventListener('fetch', function(event){
 
     log('serviceWorker is currently handling fetch event for ' + event.request.url);
 
+    var requestUrl = new URL(event.request.url);
+
     if( requestUrl.pathname === '/urlshortener/v1/url' && event.request.headers.has('X-Mock-Response') ) {
 
         var response = {
