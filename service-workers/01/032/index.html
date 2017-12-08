@@ -1,0 +1,91 @@
+<!DOCTYPE>
+
+<html>
+
+    <head>
+        <title>Mock Request Sample</title>
+        <meta charset="UTF-8" />
+    </head>
+    <body>
+
+    <p>Network status: <strong id="status"></strong></p>
+    <div id="request" style="display: none;">
+        <input id="long-url" value="https://www.packtpub.com/"
+               size="50">
+        <input type="button" id="url-shorten-btn"
+               value="Shorten URL" />Chapter 1
+        31
+    </div>
+    <div>
+        <input type="checkbox" id="mock-checkbox"
+               checked>Mock Response</input>
+    </div>
+    <div>
+        <br />
+        <a href="" id="short-url"></a>
+    </div>
+
+    <script type="text/javascript">
+
+        function printStatus(status) {
+            document.getElementById("status").innerHTML = status;
+        }
+
+        function showRequest(){
+            document.getElementById("url-shorten-btn").addEventListener('click', sendRequest);
+            document.getElementById("request").style.display='block';
+        }
+
+        function sendRequest(){
+            var xhr = new XMLHttpRequest(), request;
+            /// AIzaSyDKzXN_JR88aPV18Rm6A7_yJT0-ip5fO7E
+
+            xhr.open('POST',
+                'https://www.googleapis.com/urlshortener/v1/url?' + 'key=AIzaSyDKzXN_JR88aPV18Rm6A7_yJT0-ip5fO7E');
+
+            xhr.setRequestHeader('Content-type', 'application/json');
+
+            if( document.getElementById('mock-checkbox').checked ) {
+                xhr.setRequestHeader('X-Mock-Response', 'yes');
+            }
+
+            xhr.addEventListener('load', function(){
+                var response = JSON.parse(xhr.response);
+                var el = document.getElementById('short-url');
+                el.href = response.id;
+                el.innerHTML = response.id;
+            });
+
+            var request = {
+                longUrl : document.getElementById('long-url').value
+            };
+            xhr.send(JSON.stringify(request));
+        }
+
+        if( 'serviceWorker' in navigator ) {
+
+            navigator.serviceWorker.register(
+                'service-worker.js', {scope:'./'}
+            ).then(function (registration) {
+
+                if(navigator.serviceWorker.controller) {
+                    printStatus('The service worker is currently handling ' + ' networking operations');
+                    showRequest();
+                } else {
+                    printStatus('Please reload the page allow to service worker to handle network operations');
+
+                }
+
+            }).catch(function(error){
+                document.getElementById("status").innerHTML = "ERROR" + error;
+            })
+
+        } else {
+            document.getElementById("status").innerHTML = "UNAVAILABLE";
+        }
+
+    </script>
+
+    </body>
+
+</html>
