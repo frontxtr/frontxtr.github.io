@@ -4,7 +4,7 @@ function log(msg) {
 
 }
 
-self.addEventListener('fetch', function(){
+self.addEventListener('fetch', function(event){
 
     log('serviceWorker is currently handling fetch event for ' + event.request.url);
 
