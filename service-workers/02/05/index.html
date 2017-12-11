@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Multiple Fetch Handlers</title>
+</head>
+<body>
+
+    <p>Registration status: <strong id="status"></strong></p>
+
+    <script>
+
+        var scope = {
+            scope : './'
+        };
+
+        if( 'serviceWorker' in navigator ) {
+            navigator.serviceWorker.register(
+                'service-worker.js', scope
+            ).then(function(serviceWorker){
+                printStatus("SUCCESS");
+            }).catch(function(error){
+                printStatus("Error! " + error);
+            });
+        } else {
+            printStatus("UNAVAILABLE");
+        }
+
+        function printStatus(status) {
+            document.getElementById("status").innerHTML = status;
+        }
+
+    </script>
+
+</body>
+</html>
