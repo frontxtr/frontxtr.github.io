@@ -24,7 +24,7 @@ navigator.serviceWorker.addEventListener('controllerchange', function(event){
     navigator.serviceWorker.controller.addEventListener('statechange', function(){
 
         if( this.state === "activated" ) {
-            document.querySelector('#notification').classList.remove('hidden';)
+            document.querySelector('#notification').classList.remove('hidden');
         }
 
     })

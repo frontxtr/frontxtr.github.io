@@ -1,13 +1,13 @@
 'use strict';
 
 var attempts = 0,
-    images = {
-    'adobe',
+    images = [
+        'adobe',
         'apple',
         'google',
         'facebook',
         'amazon'
-    };
+    ];
 
 document.getElementById("tryButton").addEventListener('click', function(){
     var imageElement = document.getElementById("logo"),
