@@ -47,7 +47,7 @@ function buildImage(protocol, url) {
     var element = protocol + '-image',
         image = document.createElement('img');
     image.src = url;
-    documenet.getElementById(element).appendChild(image);
+    document.getElementById(element).appendChild(image);
 }
 
 function fireRequest(fetchMode, protocol, init) {
