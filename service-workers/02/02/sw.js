@@ -5,7 +5,7 @@ var version = 1;
 var cacheName = 'static-' + version;
 
 self.addEventListener('install', installHandler);
-self.addEventListener('fetch', fetchHandler);
+//self.addEventListener('fetch', fetchHandler);
 
 function installHandler(event) {
 
