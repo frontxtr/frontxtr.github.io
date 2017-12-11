@@ -37,7 +37,7 @@ function printStatus(status) {
 
 document.querySelector("#resetButton").addEventListener('click',
     function(){
-    navigator.serviceWorker.getRegistration.then(function(registration){
+    navigator.serviceWorker.getRegistration().then(function(registration){
         registration.unregister();
         window.location.reload();
     })
