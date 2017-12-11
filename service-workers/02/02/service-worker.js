@@ -18,9 +18,9 @@ function installHandler(event) {
 
 self.addEventListener('fetch', function (event) {
 
-    event.respondWidth(
+    event.respondWith(
         fetch(event.request).then(function(response){
-            caches.open(cachename).then(function(){
+            caches.open(cacheName).then(function(){
                 if(response.status >= 500) {
                     cache.match(event.request).then(function(){
                         return response;
