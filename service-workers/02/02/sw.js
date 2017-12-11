@@ -21,13 +21,9 @@ function installHandler(event) {
 }
 
 function fetchHandler(event) {
-    event.addEventListener('fetch', function(event) {
-        event.respondWith(caches.match(event.request));
-    });
+    event.respondWith(
+        fetch(event.request).catch(function(){
+            return cache.matches(event.request);
+        })
+    );
 }
-
-event.respondWith(
-    fetch(event.request).catch(function(){
-        return cache.matches(event.request);
-    })
-);
