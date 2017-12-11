@@ -1,30 +1,11 @@
-'use strict';
-
-var scope = {
-    scope: './'
-};
-
-if( 'serviceWorker' in navigator ) {
-
-    navigator.serviceWorker.register(
-        'sw.js', scope
-    ).then(function(serviceWorker){
-        printStatus("Success!");
-        log("Service worker registration completed with scope: " + serviceWorker.scope);
-    }).catch(function(error){
-        printStatus("ERROR! " + error);
-        log("an error occurred while registration of service Worker ! " + error);
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function() {
+        navigator.serviceWorker.register('/sw.js').then(function(registration) {
+            // Registration was successful
+            console.log('ServiceWorker registration successful with scope: ', registration.scope);
+        }, function(err) {
+            // registration failed :(
+            console.log('ServiceWorker registration failed: ', err);
+        });
     });
-
-} else {
-    printStatus("UNAVAILABLE");
-}
-
-
-function printStatus(status) {
-    document.getElementById("status").innerHTML = status
-}
-
-function log(msg) {
-    console.log("[Service Worker] " + msg)
 }
