@@ -3,7 +3,8 @@ var version = 1;
 
 var cacheName = 'static-' + version;
 self.addEventListener('install', installHandler);
-self.addEventListener('fetch', fetchHandler);
+
+
 function installHandler(event) {
     event.waitUntil(
         caches.open(cacheName).then(function(cache) {
@@ -14,8 +15,11 @@ function installHandler(event) {
         })
     );
 }
-event.respondWith(
-    fetch(event.request).catch(function() {
-        return caches.match(event.request);
-    })
-);
+
+self.addEventListener('fetch', function(event){
+    event.respondWith(
+        fetch(event.request).catch(function() {
+            return caches.match(event.request);
+        })
+    );
+});
