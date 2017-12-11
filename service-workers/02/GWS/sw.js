@@ -9,7 +9,7 @@ var filesToCache = [
     'packt-logo.png'
 ];
 
-self.addEventListener('install', function(){
+self.addEventListener('install', function(event){
     event.waitUntil(
         caches.open(CACHE_NAME)
             .then(function(cache){
