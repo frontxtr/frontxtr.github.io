@@ -16,24 +16,15 @@ function installHandler(event) {
     );
 }
 
-self.addEventListener('fetch', function (event) {
-
-    event.respondWith(
-        fetch(event.request).then(function(response){
-            caches.open(cacheName).then(function(){
-                if(response.status >= 500) {
-                    cache.match(event.request).then(function(){
-                        return response;
-                    }).catch(function(){
-                        return response;
-                    })
-                } else {
-                    cache.put(event.request, response.clone());
-                    return response;
-                }
-            });
-        })
-    )
-
+self.addEventListener('fetch', function(event){
+   event.respondWith(
+       caches.match(event.request)
+           .then(function(response){
+               if(response) {
+                   return response;
+               }
+               return fetch(event.request);
+           })
+   )
 });
 
