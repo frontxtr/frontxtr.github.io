@@ -23,7 +23,7 @@ function installHandler(event) {
 function fetchHandler(event) {
     event.respondWith(
         fetch(event.request).catch(function(){
-            return cache.matches(event.request);
+            return caches.match(event.request);
         })
     );
 }
