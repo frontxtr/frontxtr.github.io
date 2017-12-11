@@ -1,5 +1,3 @@
-'use strict';
-
 var CACHE_NAME = "offline-cache";
 
 var filesToCache = [
