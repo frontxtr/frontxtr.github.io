@@ -1,5 +1,4 @@
 'use strict';
-
 var attempts = 0,
     images = [
         'adobe',
@@ -8,22 +7,22 @@ var attempts = 0,
         'facebook',
         'amazon'
     ];
-
-document.getElementById("tryButton").addEventListener('click', function(){
-    var imageElement = document.getElementById("logo"),
-        choice = document.querySelector("#choice").value,
-        attemptsEl = document.querySelector("#attempts"),
-        result = document.querySelector("#result"),
+document.getElementById('tryButton').addEventListener
+('click', function() {
+    var imageElement = document.getElementById('logo'),
+        choice = document.querySelector('#choice').value,
+        attemptsEl = document.querySelector('#attempts'),
+        result = document.querySelector('#result'),
         currentIndex = imageElement.getAttribute('data-image'),
         newIndex = getRandomIndex();
     do {
         newIndex = getRandomIndex();
-    } while (newIndex === currentIndex);
+    } while(newIndex === currentIndex);
     imageElement.src = images[newIndex] + '-logo.png';
     imageElement.setAttribute('data-image', newIndex);
     result.className = '';
     attempts++;
-    if (newIndex == choice) {
+    if(newIndex == choice) {
         result.innerText = "Yay! Well done! You did it in " +
             attempts + " attempt(s)";
         result.classList.add('success');
@@ -35,7 +34,6 @@ document.getElementById("tryButton").addEventListener('click', function(){
         attemptsEl.innerText = attempts;
     }
 });
-
 function getRandomIndex() {
     return Math.floor(Math.random() * 5);
 }
