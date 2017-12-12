@@ -2,7 +2,7 @@ var cacheName = 'offlineTest';
 
 self.addEventListener('install', function(event) {
     event.waitUntil(
-        cache.open(cacheName).then(function(cache) {
+        caches.open(cacheName).then(function(cache) {
             return cache.addAll([
                 '/',
                 'https://www.google.com/logos/doodles/2017/st-andrews-day-2017-5715562192699392-2x.png',
