@@ -1,5 +1,3 @@
-"use strict";
-
 var cacheName = 'offlineTest';
 
 self.addEventListener('install', function(event) {
@@ -8,7 +6,6 @@ self.addEventListener('install', function(event) {
             return cache.addAll([
                 '/',
                 'ekomera.png',
-                'offline.css',
                 'index.html'
             ]);
         })
