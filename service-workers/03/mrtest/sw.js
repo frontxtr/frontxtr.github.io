@@ -1,4 +1,4 @@
-var cacheName = 'offlineTest';
+var cacheName = 'offlineTest2';
 
 self.addEventListener('install', function(event) {
     event.waitUntil(
