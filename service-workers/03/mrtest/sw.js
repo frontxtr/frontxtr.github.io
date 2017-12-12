@@ -1,3 +1,5 @@
+'use strict';
+
 var cacheName = 'offlineTest';
 
 self.addEventListener('install', function(event){
