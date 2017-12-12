@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple SW Offline Test</title>
+</head>
+<body>
+    <img src="http://www.ekomera.com.tr/wp-content/uploads/2016/07/yeni-ekomera.png" />
+    <p>Registration status: <strong id="status"></strong></p>
+
+    <script>
+
+        var scope = {
+            scope : './'
+        };
+
+        if( 'serviceWorker' in navigator ) {
+
+            navigator.serviceWorker.register(
+                'sw.js', scope
+            ).then(function(serviceWorker){
+                console.log("Service Worker registration successfull!", serviceWorker);
+                printStatus("Success");
+            }).catch(function (error) {
+                printStatus("service worker failed! " + error);
+            });
+
+        }
+
+        function printStatus(status) {
+            document.getElementById("status").innerHTML = status;
+        }
+
+    </script>
+
+</body>
+</html>

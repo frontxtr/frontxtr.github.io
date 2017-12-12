@@ -1,0 +1,26 @@
+var cacheName = 'offlineTest';
+
+self.addEventListener('install', function(event){
+    event.waitUntil(
+        caches.open(cacheName).then(function(cache){
+            return cache.addAll([
+                '/',
+                'http://www.ekomera.com.tr/wp-content/uploads/2016/07/yeni-ekomera.png'
+            ]);
+        })
+    );
+    console.log("Service Worker is installing...");
+});
+
+self.addEventListener('fetch', function(event) {
+    event.respondWith(
+        caches.open(cacheName).then(function(cache) {
+            return cache.match(event.request).then(function (response) {
+                return response || fetch(event.request).then(function(response) {
+                    cache.put(event.request, response.clone());
+                    return response;
+                });
+            });
+        })
+    );
+});
