@@ -5,7 +5,7 @@ self.addEventListener('install', function(event) {
         caches.open(cacheName).then(function(cache) {
             return cache.addAll([
                 '/',
-                new Request('https://www.google.com/logos/doodles/2017/st-andrews-day-2017-5715562192699392-2x.png', {mode:'cors'}),
+                new Request('https://www.google.com/logos/doodles/2017/st-andrews-day-2017-5715562192699392-2x.png', {mode:'no-cors'}),
                 'index.html'
             ]);
         })
