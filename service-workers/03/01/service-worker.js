@@ -1,5 +1,3 @@
-'use strict';
-
 var cacheName = 'dependices-cache';
 
 self.addEventListener('install', function(event){
