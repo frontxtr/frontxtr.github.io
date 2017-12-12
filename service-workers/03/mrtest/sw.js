@@ -6,8 +6,8 @@ self.addEventListener('install', function(event) {
             return cache.addAll([
                 '/',
                 'ekomera.png',
-                'index.html',
-                'offline.css'
+                'offline.css',
+                'index.html'
             ]);
         })
     );
