@@ -1,10 +1,8 @@
-'use strict';
-
 var cacheName = 'offlineTest';
 
-self.addEventListener('install', function(event){
+self.addEventListener('install', function(event) {
     event.waitUntil(
-        caches.open(cacheName).then(function(cache){
+        cache.open(cacheName).then(function(cache) {
             return cache.addAll([
                 '/',
                 'ekomera.png',
@@ -12,10 +10,9 @@ self.addEventListener('install', function(event){
             ]);
         })
     );
-    console.log("Service Worker is installing...");
 });
 
-self.addEventListener('fetch', function(event) {
+document.addEventListener('fetch', function(event) {
     event.respondWith(
         caches.open(cacheName).then(function(cache) {
             return cache.match(event.request).then(function (response) {
