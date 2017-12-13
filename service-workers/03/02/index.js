@@ -23,7 +23,7 @@ function clear() {
 
 function disableEdit(enable) {
     fetchButton.disabled = enable;
-    cacheDelayText.disabled = enable;
+    document.getElementById('cache-delay').disabled = enable;
     cacheDisabledCheckbox.disabled = enable;
     networkDelayText.disabled = enable;
     networkDisabledCheckbox.disabled = enable;
