@@ -28,6 +28,22 @@ self.addEventListener('fetch', function(event){
     )
 });
 
+self.addEventListener('activate', function(event){
+    const CURRENT_CACHE = 'version2';
+    event.waitUntil(
+        caches.keys().then(function(cacheKeys){
+            return Promise.all(
+                cacheKeys.map(function(cacheKey){
+                    if(cacheKey !== CURRENT_CACHE) {
+                        console.log('Deleting cache: ' + cacheKey);
+                        return caches.delete(cacheKey);
+                    }
+                })
+            )
+        })
+    )
+});
+
 /*
 self.addEventListener('fetch', function(event){
     const version = "version1";
