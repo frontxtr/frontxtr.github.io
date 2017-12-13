@@ -19,15 +19,6 @@ function setUpPromises(promises) {
 
 }
 
-self.addEventListener('fetch', function(event){
-    event.respondWith(
-        setUpPromises([
-            caches.match(event.request),
-            fetch(event.request)
-        ])
-    )
-});
-
 self.addEventListener('activate', function(event){
     const CURRENT_CACHE = 'version2';
     event.waitUntil(
@@ -43,6 +34,17 @@ self.addEventListener('activate', function(event){
         })
     )
 });
+
+self.addEventListener('fetch', function(event){
+    event.respondWith(
+        setUpPromises([
+            caches.match(event.request),
+            fetch(event.request)
+        ])
+    )
+});
+
+
 
 /*
 self.addEventListener('fetch', function(event){
