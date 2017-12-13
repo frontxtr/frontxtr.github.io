@@ -28,6 +28,8 @@ self.addEventListener('activate', function(event){
                     if(cacheKey !== CURRENT_CACHE) {
                         console.log('Deleting cache: ' + cacheKey);
                         return caches.delete(cacheKey);
+                    } else {
+                        return caches.match(event.request);
                     }
                 })
             )
