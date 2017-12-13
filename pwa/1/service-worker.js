@@ -1,5 +1,3 @@
 self.addEventListener('fetch', function(event){
-    event.respondWith(
-        fetch(event.request)
-    );
+    event.respondWith(new Response('fuck offf'));
 });
