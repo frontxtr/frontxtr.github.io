@@ -1,4 +1,4 @@
-importScripts('sw-toolbox/sw-toolbox.js');
+importScripts('sw-toolbox.js');
 
 self.addEventListener('install', function(event){
     // nothing to do here
