@@ -5,7 +5,7 @@
     <link rel="stylesheet" type="text/css" href="./styles/pirates.css" />
     <script>
         let pirateBooks = [];
-        let bookSearchUrl = 'http://openlibrary.org/search.json?q=pirate+history';
+        let bookSearchUrl = 'https://openlibrary.org/search.json?q=pirate+history';
         fetch(bookSearchUrl).then((response) => response.json()).then((data) => {
             pirateBooks = data.docs;
         generatePirateBookList();
