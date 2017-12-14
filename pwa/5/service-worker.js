@@ -14,7 +14,7 @@ toolbox.router.get('/images/*', toolbox.fastest, {
 
 toolbox.router.get('/styles/*', toolbox.cacheFirst, {
     cache : {
-        name: 'sw-toolbox-version1',
+        name: 'sw-toolbox-version2',
         maxEntries : 20,
         maxAgeSeconds : 60 * 60 * 24 * 7
     }
