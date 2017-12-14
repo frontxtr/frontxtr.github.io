@@ -5,6 +5,6 @@ module.exports = {
         'images/**.*',
         '**.html'
     ],
-    skipWaiting : true,
-    cacheId : 'version2'
+    skipWaiting: true,
+    cacheId: 'version2'
 };
