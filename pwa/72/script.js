@@ -5,6 +5,7 @@
         registerServiceWorker();
         addListeners();
         getComments().then((commentList) => renderComments(commentList));
+        putSomeTestRecord();
     }
 
     function registerServiceWorker() {
@@ -69,6 +70,19 @@
         commentsEl.appendChild(commentElement);
         let hrElement = document.createElement('hr');
         commentsEl.appendChild(hrElement);
+    }
+
+    function putSomeTestRecord() {
+        var store = localforage.createInstance({
+            name : "pirate"
+        });
+        store.setItem('comment', {"comment":"ahoy!"}).then(function(){
+            return localforage.getItem('comment');
+        }).then(function(value) {
+            console.log(value);
+        }).cath(function(error){
+            console.log(error);
+        })
     }
 
 })();
