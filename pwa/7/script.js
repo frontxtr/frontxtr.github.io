@@ -1,82 +1,74 @@
-(function () {
+(() => {
+    document.addEventListener('DOMContentLoaded', init, false);
 
-  document.addEventListener('DOMContentLoaded', init, false);
-
-  function init() {
+function init() {
     registerServiceWorker();
     addListeners();
-    pirateManager.getComments().then(function(commentList) {
-      renderComments(commentList);
-    })
-  }
+    getComments().then((commentList) => renderComments(commentList));
+}
 
-  function registerServiceWorker() {
-
-    if('serviceWorker' in navigator) {
-      window.addEventListener('load', function(){
-        navigator.serviceWorker.register('service-worker.js')
-            .then(function(registration){
-              console.log("SW Registered! " + registration );
-            }).catch(function(error){
-              console.log("an error happened!" + error);
+function registerServiceWorker() {
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('service-worker.js').then((registration) => {
+            console.log(registration);
+    }, function (err) {
+            console.log(err);
         });
-      });
+    });
     } else {
-      console.log("No ServiceWorker Support in this browser");
+        console.log('No service worker support in this browser');
     }
+}
 
-  }
+function getComments() {
+    return pirateManager.getComments()
+        .then((commentList) => commentList);
+}
 
-  function postComment(comment) {
+function postComment(comment) {
     const data = setupCommentData(comment);
-    if(navigator.serviceWorker) {
-
-      navigator.serviceWorker.ready.then(function(sw){
-        return sw.sync.register(comment)
-            .then(function(args){
-              appendComment(document.getElementById('comments'), data);
-            }).catch(function(error){
-              console.log(error);
-            })
-      })
-
+    if (navigator.serviceWorker) {
+        navigator.serviceWorker.ready.then((sw) => {
+            return sw.sync.register(comment)
+                .then((args) => {
+                appendComment(document.getElementById('comments'), data);
+    })
+    .catch((err) => {
+            console.log(err);
+    });
+    });
     } else {
-      pirateManager.postComment(data).then(function(){
-          appendComment(document.getElementById('comments'), data);
-      });
+        pirateManager.postComment(data).then(() => appendComment(document.getElementById('comments'), data));
     }
-  }
+}
 
-  function addListeners() {
-    document.getElementById('arrghBtn').addEventListener('click', function(){
-      postComment('Arrrgh!');
-    });
+function addListeners() {
+    document.getElementById('arrghBtn').addEventListener('click', () => postComment('Arrrgh!'));
+    document.getElementById('ahoyBtn').addEventListener('click', () => postComment('Ahoy!'));
+}
 
-      document.getElementById('ahoyBtn').addEventListener('click', function(){
-          postComment('ahoy!');
-      });
-  }
-
-  function resetElements(){
-    var comments = document.getElementById('comments');
+function resetElements() {
+    let comments = document.getElementById('comments');
     comments.innerHTML = "";
-  }
+}
 
-  function renderComments(commentList) {
+function renderComments(commentList) {
     resetElements();
-    var comments = document.getElementById('comments');
-    Object.keys(commentList).forEach(function(key){
-      var comment = commentList[key];
-      appendComment(comments, comment);
-    });
-  }
+    let comments = document.getElementById('comments');
+    Object.keys(commentList).forEach((key) => {
+        let comment = commentList[key];
+    appendComment(comments, comment);
 
-  function appendComment(commentsEl, comment){
-    var commentElement = document.createElement('p');
+});
+}
+
+function appendComment(commentsEl, comment) {
+    let commentElement = document.createElement('p');
     commentElement.innerHTML = comment.commentText + " - " + comment.date;
     commentsEl.appendChild(commentElement);
-    var hrElement = document.createElement('hr');
+    let hrElement = document.createElement('hr');
     commentsEl.appendChild(hrElement);
-  }
+}
 
 })();
