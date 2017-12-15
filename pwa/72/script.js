@@ -80,7 +80,7 @@
             return localforage.getItem('comment');
         }).then(function(value) {
             console.log(value);
-        }).cath(function(error){
+        }).catch(function(error){
             console.log(error);
         })
     }
