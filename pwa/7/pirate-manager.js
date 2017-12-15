@@ -1,6 +1,6 @@
 var pirateManager = (()=>{
 
-    return : {
+    return  {
         getComments : getComments,
         postComment : postComment,
         setupCommentData : setupCommentData
