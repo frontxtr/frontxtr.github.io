@@ -5,7 +5,7 @@
   function init() {
     registerServiceWorker();
     addListeners();
-    getComments().then(function(commentList) {
+    pirateManager.getComments().then(function(commentList) {
       renderComments(commentList);
     })
   }
