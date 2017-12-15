@@ -90,11 +90,11 @@
 
     function renderComments(commentList) {
         resetElements();
-        var comments = document.getElementById('comments');
-        Object.keys(commentList).forEach(function(key) {
-            var comment = commentList[key];
-             appendComment(comments, comment);
-        });
+        let comments = document.getElementById('comments');
+        Object.keys(commentList).forEach((key) => {
+            let comment = commentList[key];
+        appendComment(comments, comment);
+    });
     }
 
     function appendComment(commentsEl, comment) {
