@@ -70,7 +70,7 @@
     }
 
     function addListeners() {
-        document.getElementById('commentsBtn').addEventListener('click', function (ev) { postComment(); })
+        document.getElementById('commentBtn').addEventListener('click', function (ev) { postComment(); })
 
         navigator.serviceWorker.addEventListener('message', function(event) {
             clearTimeout(offlineTimeout);
