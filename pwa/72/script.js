@@ -27,7 +27,7 @@
     }
 
     function postComment(comment) {
-        const data = setupCommentData(comment);
+        const data = pirateManager.setupCommentData(comment);
         if (navigator.serviceWorker) {
             navigator.serviceWorker.ready.then((sw) => {
                 return sw.sync.register(comment)
