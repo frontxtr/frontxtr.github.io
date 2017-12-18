@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d165be6-7c1d-4fea-8b18-8600ed93e692" name="Default" comment="" />
+    <list default="true" id="9d165be6-7c1d-4fea-8b18-8600ed93e692" name="Default" comment="sw-toolbox sample">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/pwa/4/package-lock.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pwa/4/package.json" afterPath="" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -15,30 +19,20 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-workers/03/02/index.html">
+        <entry file="file://$PROJECT_DIR$/pwa/8/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="45" column="14" lean-forward="true" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/service-workers/03/02/index.js">
+      <file leaf-file-name="pirate_books.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pwa/8/pirate_books.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="856">
-              <caret line="167" column="1" lean-forward="false" selection-start-line="167" selection-start-column="1" selection-end-line="167" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-workers/03/02/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="865">
-              <caret line="122" column="1" lean-forward="false" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
+            <state relative-caret-position="555">
+              <caret line="37" column="7" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -61,39 +55,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/service-workers/01/01/servcei-worker.js" />
-        <option value="$PROJECT_DIR$/service-workers/01/01/index.html" />
-        <option value="$PROJECT_DIR$/service-workers/01/02/service-worker.js" />
-        <option value="$PROJECT_DIR$/service-workers/01/02/index.html" />
-        <option value="$PROJECT_DIR$/service-workers/01/03/index.html" />
-        <option value="$PROJECT_DIR$/service-workers/01/03/service-worker.js" />
-        <option value="$PROJECT_DIR$/service-workers/01/032/index.html" />
-        <option value="$PROJECT_DIR$/service-workers/01/032/service-worker.js" />
-        <option value="$PROJECT_DIR$/service-workers/01/04/index.html" />
-        <option value="$PROJECT_DIR$/service-workers/01/04/service-worker.js" />
-        <option value="$PROJECT_DIR$/service-workers/02/01/index.html" />
-        <option value="$PROJECT_DIR$/service-workers/02/01/offline.html" />
-        <option value="$PROJECT_DIR$/service-workers/02/01/service-worker.js" />
-        <option value="$PROJECT_DIR$/service-workers/02/02/sw.js" />
-        <option value="$PROJECT_DIR$/service-workers/02/02/index.html" />
-        <option value="$PROJECT_DIR$/service-workers/02/02/index.js" />
-        <option value="$PROJECT_DIR$/service-workers/02/02/service-worker.js" />
-        <option value="$PROJECT_DIR$/service-workers/02/GWS/index.html" />
-        <option value="$PROJECT_DIR$/service-workers/02/GWS/index.js" />
-        <option value="$PROJECT_DIR$/service-workers/02/GWS/sw.js" />
-        <option value="$PROJECT_DIR$/service-workers/02/03/service-worker.js" />
-        <option value="$PROJECT_DIR$/service-workers/02/03/style-2.css" />
-        <option value="$PROJECT_DIR$/service-workers/02/03/style-1.css" />
-        <option value="$PROJECT_DIR$/service-workers/02/03/index.html" />
-        <option value="$PROJECT_DIR$/service-workers/02/05/index.html" />
-        <option value="$PROJECT_DIR$/service-workers/02/05/service-worker.js" />
-        <option value="$PROJECT_DIR$/service-workers/02/06/index.html" />
-        <option value="$PROJECT_DIR$/service-workers/02/06/service-worker.js" />
-        <option value="$PROJECT_DIR$/service-workers/02/06/index.js" />
-        <option value="$PROJECT_DIR$/service-workers/03/01/index.html" />
-        <option value="$PROJECT_DIR$/service-workers/03/01/index.js" />
-        <option value="$PROJECT_DIR$/service-workers/03/01/game.js" />
-        <option value="$PROJECT_DIR$/service-workers/03/01/service-worker.js" />
         <option value="$PROJECT_DIR$/service-workers/03/01/style.css" />
         <option value="$PROJECT_DIR$/service-workers/03/mrtest/offline.css" />
         <option value="$PROJECT_DIR$/service-workers/03/mrtest/normal.css" />
@@ -102,6 +63,49 @@
         <option value="$PROJECT_DIR$/service-workers/03/02/index.html" />
         <option value="$PROJECT_DIR$/service-workers/03/02/style.css" />
         <option value="$PROJECT_DIR$/service-workers/03/02/index.js" />
+        <option value="$PROJECT_DIR$/service-workers/03/03/index.html" />
+        <option value="$PROJECT_DIR$/service-workers/03/03/style.css" />
+        <option value="$PROJECT_DIR$/service-workers/03/03/index.js" />
+        <option value="$PROJECT_DIR$/service-workers/03/03/service-worker.js" />
+        <option value="$PROJECT_DIR$/pwa/1/pirates.html" />
+        <option value="$PROJECT_DIR$/pwa/1/index.html" />
+        <option value="$PROJECT_DIR$/pwa/1/service-worker.js" />
+        <option value="$PROJECT_DIR$/pwa/2/service-worker.js" />
+        <option value="$PROJECT_DIR$/pwa/2/script.js" />
+        <option value="$PROJECT_DIR$/pwa/2/offline.html" />
+        <option value="$PROJECT_DIR$/pwa/3/styles/pirates.css" />
+        <option value="$PROJECT_DIR$/pwa/3/index.html" />
+        <option value="$PROJECT_DIR$/pwa/3/sw-precache-config.js" />
+        <option value="$PROJECT_DIR$/pwa/3/service-worker.js" />
+        <option value="$PROJECT_DIR$/pwa/5/index.html" />
+        <option value="$PROJECT_DIR$/pwa/5/service-worker.js" />
+        <option value="$PROJECT_DIR$/pwa/6/index.html" />
+        <option value="$PROJECT_DIR$/pwa/6/companion.js" />
+        <option value="$PROJECT_DIR$/pwa/6/offline.html" />
+        <option value="$PROJECT_DIR$/pwa/6/pirate_books.html" />
+        <option value="$PROJECT_DIR$/pwa/6/pirates.html" />
+        <option value="$PROJECT_DIR$/pwa/6/script.js" />
+        <option value="$PROJECT_DIR$/pwa/6/service-worker.js" />
+        <option value="$PROJECT_DIR$/pwa/6/sw-precache-config.js" />
+        <option value="$PROJECT_DIR$/pwa/6/sw-toolbox.js" />
+        <option value="$PROJECT_DIR$/pwa/62/pirates.html" />
+        <option value="$PROJECT_DIR$/pwa/62/pirate_books.html" />
+        <option value="$PROJECT_DIR$/pwa/7/pirates.html" />
+        <option value="$PROJECT_DIR$/pwa/7/service-worker.js" />
+        <option value="$PROJECT_DIR$/pwa/7/pirate_books.html" />
+        <option value="$PROJECT_DIR$/pwa/7/index.html" />
+        <option value="$PROJECT_DIR$/pwa/7/pirate-manager.js" />
+        <option value="$PROJECT_DIR$/pwa/7/script.js" />
+        <option value="$PROJECT_DIR$/pwa/72/pirates.html" />
+        <option value="$PROJECT_DIR$/pwa/72/pirate_books.html" />
+        <option value="$PROJECT_DIR$/pwa/72/index.html" />
+        <option value="$PROJECT_DIR$/pwa/72/script.js" />
+        <option value="$PROJECT_DIR$/pwa/8/pirate-manager.js" />
+        <option value="$PROJECT_DIR$/pwa/8/service-worker.js" />
+        <option value="$PROJECT_DIR$/pwa/8/index.html" />
+        <option value="$PROJECT_DIR$/pwa/8/pirate_books.html" />
+        <option value="$PROJECT_DIR$/pwa/8/pirates.html" />
+        <option value="$PROJECT_DIR$/pwa/8/script.js" />
       </list>
     </option>
   </component>
@@ -111,17 +115,23 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/pwa/3/node_modules" />
+    <handled-path value="$PROJECT_DIR$/pwa/4/node_modules" />
+    <handled-path value="$PROJECT_DIR$/pwa/72/node_modules" />
+    <handled-path value="$PROJECT_DIR$/pwa/8/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="901" />
     <option name="y" value="40" />
-    <option name="width" value="974" />
+    <option name="width" value="1026" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -135,8 +145,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="wolfhoundtr.github.io" type="cbb8eebc:String" user="wolfhoundtr.github.io" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="wolfhoundtr.github.io" type="cbb8eebc:String" user="wolfhoundtr.github.io" />
+              <item name="pwa" type="cbb8eebc:String" user="pwa" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -147,31 +171,24 @@
             <path>
               <item name="wolfhoundtr.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="wolfhoundtr.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="service-workers" type="462c0819:PsiDirectoryNode" />
+              <item name="pwa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wolfhoundtr.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wolfhoundtr.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="pwa" type="462c0819:PsiDirectoryNode" />
+              <item name="8" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wolfhoundtr.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="wolfhoundtr.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="service-workers" type="462c0819:PsiDirectoryNode" />
-              <item name="02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wolfhoundtr.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wolfhoundtr.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="service-workers" type="462c0819:PsiDirectoryNode" />
-              <item name="03" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wolfhoundtr.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wolfhoundtr.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="service-workers" type="462c0819:PsiDirectoryNode" />
-              <item name="03" type="462c0819:PsiDirectoryNode" />
-              <item name="02" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -180,11 +197,20 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Apache24\htdocs\wolfhoundtr.github.io\pwa\72\node_modules" />
+      <recent name="C:\Apache24\htdocs\wolfhoundtr.github.io\pwa\5" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Apache24\htdocs\wolfhoundtr.github.io\service-workers\02\05" />
-      <recent name="C:\Apache24\htdocs\wolfhoundtr.github.io\service-workers\02\GWS" />
+      <recent name="C:\Apache24\htdocs\wolfhoundtr.github.io\pwa\8" />
+      <recent name="C:\Apache24\htdocs\wolfhoundtr.github.io\pwa\7" />
+      <recent name="C:\Apache24\htdocs\wolfhoundtr.github.io\pwa\6" />
+      <recent name="C:\Apache24\htdocs\wolfhoundtr.github.io\pwa\3" />
+      <recent name="C:\Apache24\htdocs\wolfhoundtr.github.io\pwa\2" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -200,8 +226,8 @@
     </option>
   </component>
   <component name="RunManager" selected="Node.js.service-worker.js">
-    <configuration name="service-worker.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="service-worker.js" working-dir="$PROJECT_DIR$/service-workers/02/01" />
-    <configuration name="sw.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="sw.js" working-dir="$PROJECT_DIR$/service-workers/03/mrtest" />
+    <configuration name="service-worker.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="service-worker.js" working-dir="$PROJECT_DIR$/service-workers/02/01" />
+    <configuration name="sw.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="sw.js" working-dir="$PROJECT_DIR$/service-workers/03/mrtest" />
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Node.js.sw.js" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.service-worker.js" />
@@ -228,301 +254,10 @@
       <updated>1512717815426</updated>
       <workItem from="1512717816595" duration="15668000" />
       <workItem from="1512977041473" duration="9626000" />
-      <workItem from="1512992832065" duration="22986000" />
-    </task>
-    <task id="LOCAL-00024" summary="all original files changed with local files">
-      <created>1512980032130</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1512980032130</updated>
-    </task>
-    <task id="LOCAL-00025" summary="all original files changed with local files v2">
-      <created>1512980190197</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1512980190197</updated>
-    </task>
-    <task id="LOCAL-00026" summary="all original files changed with local files v3">
-      <created>1512980454322</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1512980454322</updated>
-    </task>
-    <task id="LOCAL-00027" summary="fetch Handler changed code with MDN">
-      <created>1512980730401</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1512980730401</updated>
-    </task>
-    <task id="LOCAL-00028" summary="degistirildi iste amk">
-      <created>1512981364058</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1512981364058</updated>
-    </task>
-    <task id="LOCAL-00029" summary="hatalar duzeltildi">
-      <created>1512981569900</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1512981569900</updated>
-    </task>
-    <task id="LOCAL-00030" summary="hatalar duzeltildi">
-      <created>1512981814981</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1512981814981</updated>
-    </task>
-    <task id="LOCAL-00031" summary="hatalar duzeltildi">
-      <created>1512981991448</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1512981991448</updated>
-    </task>
-    <task id="LOCAL-00032" summary="fetch event duzeltildi">
-      <created>1512987711309</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1512987711310</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Google Service Worker Example 1">
-      <created>1512989358761</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1512989358761</updated>
-    </task>
-    <task id="LOCAL-00034" summary="Google Service Worker Example 1">
-      <created>1512989477245</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1512989477245</updated>
-    </task>
-    <task id="LOCAL-00035" summary="Google Service Worker Example 1">
-      <created>1512989568925</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1512989568925</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Google Service Worker Example 1">
-      <created>1512989953083</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1512989953083</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Google Service Worker Example 1">
-      <created>1512990139890</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1512990139890</updated>
-    </task>
-    <task id="LOCAL-00038" summary="Google Service Worker Example 1">
-      <created>1512990235110</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1512990235110</updated>
-    </task>
-    <task id="LOCAL-00039" summary="Google Service Worker Example 1">
-      <created>1512993089508</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1512993089508</updated>
-    </task>
-    <task id="LOCAL-00040" summary="Google Service Worker Example 1">
-      <created>1512993243353</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1512993243353</updated>
-    </task>
-    <task id="LOCAL-00041" summary="Offline Loading CSS">
-      <created>1512995635928</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1512995635928</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Offline Loading CSS">
-      <created>1512995700855</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1512995700855</updated>
-    </task>
-    <task id="LOCAL-00043" summary="multiple fetch handler">
-      <created>1512996545707</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1512996545707</updated>
-    </task>
-    <task id="LOCAL-00044" summary="fetching remote sources">
-      <created>1512998914892</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1512998914892</updated>
-    </task>
-    <task id="LOCAL-00045" summary="fetching remote sources">
-      <created>1512999247887</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1512999247887</updated>
-    </task>
-    <task id="LOCAL-00046" summary="remote game go offline">
-      <created>1513004862002</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1513004862002</updated>
-    </task>
-    <task id="LOCAL-00047" summary="remote game go offline">
-      <created>1513005077440</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1513005077440</updated>
-    </task>
-    <task id="LOCAL-00048" summary="remote game go offline">
-      <created>1513005226188</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1513005226188</updated>
-    </task>
-    <task id="LOCAL-00049" summary="remote game go offline">
-      <created>1513065004292</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1513065004292</updated>
-    </task>
-    <task id="LOCAL-00050" summary="remote game go offline">
-      <created>1513065235873</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1513065235875</updated>
-    </task>
-    <task id="LOCAL-00051" summary="remote game go offline">
-      <created>1513065939741</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1513065939741</updated>
-    </task>
-    <task id="LOCAL-00052" summary="remote game go offline">
-      <created>1513067736333</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1513067736333</updated>
-    </task>
-    <task id="LOCAL-00053" summary="remote game go offline">
-      <created>1513080175741</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1513080175741</updated>
-    </task>
-    <task id="LOCAL-00054" summary="simple test">
-      <created>1513083725305</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1513083725305</updated>
-    </task>
-    <task id="LOCAL-00055" summary="simple test">
-      <created>1513083959490</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1513083959490</updated>
-    </task>
-    <task id="LOCAL-00056" summary="simple test">
-      <created>1513084183970</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1513084183970</updated>
-    </task>
-    <task id="LOCAL-00057" summary="simple test">
-      <created>1513084321041</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1513084321042</updated>
-    </task>
-    <task id="LOCAL-00058" summary="simple test">
-      <created>1513086292213</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1513086292213</updated>
-    </task>
-    <task id="LOCAL-00059" summary="simple test">
-      <created>1513086344953</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1513086344953</updated>
-    </task>
-    <task id="LOCAL-00060" summary="simple test">
-      <created>1513086510761</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1513086510761</updated>
-    </task>
-    <task id="LOCAL-00061" summary="simple test">
-      <created>1513086526483</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1513086526484</updated>
-    </task>
-    <task id="LOCAL-00062" summary="simple test">
-      <created>1513086731676</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1513086731676</updated>
-    </task>
-    <task id="LOCAL-00063" summary="simple test">
-      <created>1513086946998</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1513086946998</updated>
-    </task>
-    <task id="LOCAL-00064" summary="simple test">
-      <created>1513088528846</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1513088528846</updated>
-    </task>
-    <task id="LOCAL-00065" summary="simple test">
-      <created>1513088671931</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1513088671931</updated>
+      <workItem from="1512992832065" duration="26706000" />
+      <workItem from="1513164946203" duration="6039000" />
+      <workItem from="1513182077151" duration="25453000" />
+      <workItem from="1513582577992" duration="616000" />
     </task>
     <task id="LOCAL-00066" summary="simple test">
       <created>1513088757844</created>
@@ -573,31 +308,328 @@
       <option name="project" value="LOCAL" />
       <updated>1513090208982</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="a change in js file">
+      <created>1513151507642</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1513151507642</updated>
+    </task>
+    <task id="LOCAL-00074" summary="another offline example">
+      <created>1513151949495</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1513151949495</updated>
+    </task>
+    <task id="LOCAL-00075" summary="another offline example">
+      <created>1513165061600</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1513165061601</updated>
+    </task>
+    <task id="LOCAL-00076" summary="another offline example">
+      <created>1513165316653</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1513165316653</updated>
+    </task>
+    <task id="LOCAL-00077" summary="another offline example">
+      <created>1513165383238</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1513165383238</updated>
+    </task>
+    <task id="LOCAL-00078" summary="another offline example">
+      <created>1513165541091</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1513165541091</updated>
+    </task>
+    <task id="LOCAL-00079" summary="another offline example">
+      <created>1513165737797</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1513165737797</updated>
+    </task>
+    <task id="LOCAL-00080" summary="another offline example">
+      <created>1513165873843</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1513165873843</updated>
+    </task>
+    <task id="LOCAL-00081" summary="another offline example">
+      <created>1513166131512</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1513166131512</updated>
+    </task>
+    <task id="LOCAL-00082" summary="cache olani veya normal olanı getir">
+      <created>1513166295193</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1513166295193</updated>
+    </task>
+    <task id="LOCAL-00083" summary="cache olani veya normal olanı getir">
+      <created>1513166536659</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1513166536659</updated>
+    </task>
+    <task id="LOCAL-00084" summary="offline sayfa denemesi">
+      <created>1513167158314</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1513167158314</updated>
+    </task>
+    <task id="LOCAL-00085" summary="offline sayfa denemesi">
+      <created>1513167714602</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1513167714602</updated>
+    </task>
+    <task id="LOCAL-00086" summary="offline sayfa denemesi">
+      <created>1513167885462</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1513167885462</updated>
+    </task>
+    <task id="LOCAL-00087" summary="offline sayfa denemesi">
+      <created>1513171086251</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1513171086251</updated>
+    </task>
+    <task id="LOCAL-00088" summary="version2 cache added">
+      <created>1513182294668</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1513182294669</updated>
+    </task>
+    <task id="LOCAL-00089" summary="version2 cache added">
+      <created>1513182725826</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1513182725826</updated>
+    </task>
+    <task id="LOCAL-00090" summary="version2 cache added">
+      <created>1513182846783</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1513182846783</updated>
+    </task>
+    <task id="LOCAL-00091" summary="sw-toolbox sample">
+      <created>1513249592694</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1513249592694</updated>
+    </task>
+    <task id="LOCAL-00092" summary="changed cacheName for css files">
+      <created>1513250867429</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1513250867429</updated>
+    </task>
+    <task id="LOCAL-00093" summary="sw-toolbox sample">
+      <created>1513251013835</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1513251013835</updated>
+    </task>
+    <task id="LOCAL-00094" summary="Updated forgotten path">
+      <created>1513251395575</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1513251395575</updated>
+    </task>
+    <task id="LOCAL-00095" summary="sw-toolbox sample">
+      <created>1513251839467</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1513251839467</updated>
+    </task>
+    <task id="LOCAL-00096" summary="sw-toolbox sample">
+      <created>1513256198666</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1513256198666</updated>
+    </task>
+    <task id="LOCAL-00097" summary="sw-toolbox sample">
+      <created>1513256387072</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1513256387072</updated>
+    </task>
+    <task id="LOCAL-00098" summary="sw-toolbox sample">
+      <created>1513256639632</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1513256639632</updated>
+    </task>
+    <task id="LOCAL-00099" summary="files changed with original repo">
+      <created>1513257080777</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1513257080777</updated>
+    </task>
+    <task id="LOCAL-00100" summary="sw-toolbox sample">
+      <created>1513257348042</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1513257348042</updated>
+    </task>
+    <task id="LOCAL-00101" summary="register sync example">
+      <created>1513326978822</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1513326978822</updated>
+    </task>
+    <task id="LOCAL-00102" summary="forgot to add pirate-manager.js">
+      <created>1513327156610</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1513327156611</updated>
+    </task>
+    <task id="LOCAL-00103" summary="fix of syntax error">
+      <created>1513327315714</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1513327315714</updated>
+    </task>
+    <task id="LOCAL-00104" summary="scripts.js fix">
+      <created>1513327440514</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1513327440514</updated>
+    </task>
+    <task id="LOCAL-00105" summary="error fixes">
+      <created>1513327657712</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1513327657712</updated>
+    </task>
+    <task id="LOCAL-00106" summary="error fixes">
+      <created>1513327776734</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1513327776734</updated>
+    </task>
+    <task id="LOCAL-00107" summary="sw-toolbox sample">
+      <created>1513336576105</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1513336576105</updated>
+    </task>
+    <task id="LOCAL-00108" summary="sw-toolbox sample">
+      <created>1513336942940</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1513336942940</updated>
+    </task>
+    <task id="LOCAL-00109" summary="localforage test">
+      <created>1513338325197</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1513338325197</updated>
+    </task>
+    <task id="LOCAL-00110" summary="syntax error fix">
+      <created>1513339127787</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1513339127787</updated>
+    </task>
+    <task id="LOCAL-00111" summary="another example offline sync and post comment">
+      <created>1513347548028</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1513347548028</updated>
+    </task>
+    <task id="LOCAL-00112" summary="remote db example">
+      <created>1513347865771</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1513347865771</updated>
+    </task>
+    <task id="LOCAL-00113" summary="errors were fixed">
+      <created>1513347993950</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1513347993950</updated>
+    </task>
+    <task id="LOCAL-00114" summary="error fixes">
+      <created>1513348138777</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1513348138777</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48280000" />
+    <option name="totallyTimeSpent" value="84108000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="40" width="974" height="1047" extended-state="0" />
+    <frame x="901" y="40" width="1026" height="1047" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2223382" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19702971" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997879" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997879" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32873806" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32790446" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -608,32 +640,32 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="second example by state and status watching" />
-    <MESSAGE value="third example stale on error" />
-    <MESSAGE value="Example 3.2 with mock response/request" />
-    <MESSAGE value="Example 4 - request time out" />
-    <MESSAGE value="Offline working example" />
-    <MESSAGE value="js changes" />
-    <MESSAGE value="offline image example" />
-    <MESSAGE value="fetchHandler line commentend" />
-    <MESSAGE value="fetchHandler added" />
-    <MESSAGE value="fetchHandler added / changed" />
-    <MESSAGE value="fetchHandler added / changed 2" />
-    <MESSAGE value="errors were corrected" />
-    <MESSAGE value="all original files changed with local files" />
-    <MESSAGE value="all original files changed with local files v2" />
-    <MESSAGE value="all original files changed with local files v3" />
-    <MESSAGE value="fetch Handler changed code with MDN" />
-    <MESSAGE value="degistirildi iste amk" />
-    <MESSAGE value="hatalar duzeltildi" />
-    <MESSAGE value="fetch event duzeltildi" />
     <MESSAGE value="Google Service Worker Example 1" />
     <MESSAGE value="Offline Loading CSS" />
     <MESSAGE value="multiple fetch handler" />
     <MESSAGE value="fetching remote sources" />
     <MESSAGE value="remote game go offline" />
     <MESSAGE value="simple test" />
-    <option name="LAST_COMMIT_MESSAGE" value="simple test" />
+    <MESSAGE value="a change in js file" />
+    <MESSAGE value="another offline example" />
+    <MESSAGE value="cache olani veya normal olanı getir" />
+    <MESSAGE value="offline sayfa denemesi" />
+    <MESSAGE value="version2 cache added" />
+    <MESSAGE value="changed cacheName for css files" />
+    <MESSAGE value="Updated forgotten path" />
+    <MESSAGE value="files changed with original repo" />
+    <MESSAGE value="register sync example" />
+    <MESSAGE value="forgot to add pirate-manager.js" />
+    <MESSAGE value="fix of syntax error" />
+    <MESSAGE value="scripts.js fix" />
+    <MESSAGE value="sw-toolbox sample" />
+    <MESSAGE value="localforage test" />
+    <MESSAGE value="syntax error fix" />
+    <MESSAGE value="another example offline sync and post comment" />
+    <MESSAGE value="remote db example" />
+    <MESSAGE value="errors were fixed" />
+    <MESSAGE value="error fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="error fixes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -642,348 +674,323 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/service-workers/02/GWS/index.html">
+    <entry file="file://$PROJECT_DIR$/pwa/3/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding />
+        <state relative-caret-position="425">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-workers/02/GWS/sw.js">
+    <entry file="file://$PROJECT_DIR$/pwa/3/sw-precache-config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="153">
+          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-workers/02/GWS/index.js">
+    <entry file="file://$PROJECT_DIR$/pwa/3/service-worker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="42" lean-forward="true" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-          <folding />
+        <state relative-caret-position="3706">
+          <caret line="218" column="29" lean-forward="true" selection-start-line="218" selection-start-column="29" selection-end-line="218" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-workers/02/01/service-worker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-workers/01/02/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="45" column="55" lean-forward="true" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-workers/01/03/index.html">
+    <entry file="file://$PROJECT_DIR$/pwa/5/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="22" column="79" lean-forward="false" selection-start-line="22" selection-start-column="79" selection-end-line="22" selection-end-column="79" />
+          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-workers/01/032/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2">
-          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-workers/01/04/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-workers/02/01/offline.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="49" lean-forward="true" selection-start-line="20" selection-start-column="56" selection-end-line="21" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-workers/02/01/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="72" lean-forward="false" selection-start-line="26" selection-start-column="72" selection-end-line="26" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-workers/01/032/service-worker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="3" lean-forward="true" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-workers/01/04/service-worker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-workers/01/01/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-workers/01/01/service-worker.js">
+    <entry file="file://$PROJECT_DIR$/pwa/5/sw-precache-config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-workers/01/02/service-worker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-workers/01/03/service-worker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="27" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-workers/02/02/service-worker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-workers/02/02/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-workers/02/02/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-workers/02/GWS/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-workers/02/GWS/sw.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-workers/02/GWS/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="42" lean-forward="true" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-workers/02/03/style-2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-workers/02/03/style-1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-workers/02/03/service-worker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-workers/02/03/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-workers/02/05/service-worker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="3" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-workers/02/05/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-workers/02/06/index.html">
+    <entry file="file://$PROJECT_DIR$/pwa/5/service-worker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-          <folding />
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-workers/02/06/index.js">
+    <entry file="file://$PROJECT_DIR$/pwa/6/styles/pirates.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-workers/02/06/service-worker.js">
+    <entry file="file://$PROJECT_DIR$/pwa/6/images/pirate-clip-art.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa/6/companion.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-          <folding />
+        <state relative-caret-position="285">
+          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-workers/03/01/service-worker.js">
+    <entry file="file://$PROJECT_DIR$/pwa/6/offline.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="3" lean-forward="true" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
-          <folding />
+        <state relative-caret-position="285">
+          <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-workers/03/01/game.js">
+    <entry file="file://$PROJECT_DIR$/pwa/6/pirate_books.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="435">
+          <caret line="28" column="7" lean-forward="false" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-workers/03/01/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="2" lean-forward="false" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-workers/03/01/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-workers/03/01/style.css">
+    <entry file="file://$PROJECT_DIR$/pwa/6/pirates.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="25" selection-end-column="10" />
-          <folding />
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-workers/03/mrtest/index.html">
+    <entry file="file://$PROJECT_DIR$/pwa/6/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
-          <folding />
+        <state relative-caret-position="180">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-workers/03/mrtest/normal.css">
+    <entry file="file://$PROJECT_DIR$/pwa/62/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-workers/03/mrtest/offline.css">
+    <entry file="file://$PROJECT_DIR$/pwa/62/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="180">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-workers/02/01/service-worker.js">
+    <entry file="file://$PROJECT_DIR$/pwa/6/sw-precache-config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="11" selection-end-column="15" />
-          <folding />
+          <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-workers/03/mrtest/sw.js">
+    <entry file="file://$PROJECT_DIR$/pwa/6/sw-toolbox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="830">
+          <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa/6/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa/62/pirates.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="49" lean-forward="false" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa/62/pirate_books.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa/7/service-worker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa/7/pirate_books.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="43" lean-forward="true" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa/7/pirates.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="61" lean-forward="false" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa/7/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="45" lean-forward="false" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa/7/pirate-manager.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding />
+          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-workers/03/02/index.html">
+    <entry file="file://$PROJECT_DIR$/pwa/72/sw-precache-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa/72/sw-toolbox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa/72/pirates.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="49" lean-forward="true" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa/72/pirate_books.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="7" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa/72/offline.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa/7/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="38" column="7" lean-forward="false" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa/72/node_modules/localforage/yarn.lock" />
+    <entry file="file://$PROJECT_DIR$/pwa/72/node_modules/localforage/package.json" />
+    <entry file="file://$PROJECT_DIR$/pwa/72/node_modules/localforage/Gruntfile.js" />
+    <entry file="file://$PROJECT_DIR$/pwa/72/node_modules/localforage/bower.json" />
+    <entry file="file://$PROJECT_DIR$/pwa/72/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa/72/pirate-manager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa/72/service-worker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa/72/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa/8/chapter5-example-2_localforage/manifest.json" />
+    <entry file="file://$PROJECT_DIR$/pwa/8/package.json" />
+    <entry file="file://$PROJECT_DIR$/pwa/8/node_modules/localforage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa/8/pirate-manager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa/6/service-worker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa/8/pirates.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa/8/companion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa/8/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa/8/service-worker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
-          <caret line="45" column="14" lean-forward="true" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+          <caret line="45" column="3" lean-forward="true" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa/8/sw-precache-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa/8/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-workers/03/02/style.css">
+    <entry file="file://$PROJECT_DIR$/pwa/8/pirate_books.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="865">
-          <caret line="122" column="1" lean-forward="false" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-workers/03/02/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="856">
-          <caret line="167" column="1" lean-forward="false" selection-start-line="167" selection-start-column="1" selection-end-line="167" selection-end-column="1" />
+        <state relative-caret-position="555">
+          <caret line="37" column="7" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
           <folding />
         </state>
       </provider>
